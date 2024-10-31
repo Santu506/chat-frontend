@@ -6,7 +6,7 @@
 ```
 ```
 -Routing
-- cfeate pages
+- create pages
 - layouts and utils
 
 ```
