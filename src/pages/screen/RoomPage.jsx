@@ -186,7 +186,7 @@ const RoomPage = () => {
         <Box sx={{ height: '70vh', width: '100%', marginTop: '10%' }}>
           <ReactPlayer
             playing
-            muted
+            // muted
             height="100%"
             width="100%"
             url={remoteStream}
