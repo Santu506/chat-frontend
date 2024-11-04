@@ -69,14 +69,14 @@ const LobbyPage = () => {
             sx={{ marginBottom: 4, textAlign: "start" }}
           >
             To connect with someone:
-            <ol>
-              <li>Enter your Name.</li>
-              <li>Input the room number you wish to join.</li>
-              <li>Click "Join" to connect.</li>
-              <li>
+            
+              <li key={1}>Enter your Name.</li>
+              <li key={2}>Input the room number you wish to join.</li>
+              <li key={3}>Click "Join" to connect.</li>
+              <li key={4}>
                 Make sure the other person is in the same room to communicate.
               </li>
-            </ol>
+            
           </Typography>
 
           <form
