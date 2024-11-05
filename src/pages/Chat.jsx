@@ -32,6 +32,7 @@ import { setIsFileMenu } from "../redux/reducers/misc";
 import { removeNewMessagesAlert } from "../redux/reducers/chat";
 import { TypingLoader } from "../components/layout/Loaders";
 import { useNavigate } from "react-router-dom";
+import { green } from "@mui/material/colors";
 
 const Chat = ({ chatId, user }) => {
   const socket = getSocket();
@@ -238,7 +239,7 @@ const Chat = ({ chatId, user }) => {
             type="submit"
             sx={{
               rotate: "-30deg",
-              bgcolor: orange,
+              bgcolor: "green",
               color: "white",
               marginLeft: "1rem",
               padding: "0.5rem",
